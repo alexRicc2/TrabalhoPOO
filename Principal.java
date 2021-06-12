@@ -467,7 +467,7 @@ public static void main(String args[]) {
 						posRota = sc.nextInt(); 
 						
 								
-									if(posRota < rotasLista.size() && posRota > 0)
+									if(posRota < rotasLista.size() && posRota >= 0)
 									{
 										System.out.println("Escolha seu assento no onibus");
 										rotasLista.get(posRota).getOnibus().exibirAssentos();
